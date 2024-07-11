@@ -9,6 +9,15 @@ display: flex;
 justify-content: space-around;
 margin-top: 15px;
 }
+.home{
+    display: none;
+}
+.about{
+    display: none;
+}
+.shop{
+    display: none;
+}
 .start{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif  ;
     font-weight: normal;
@@ -16,7 +25,7 @@ margin-top: 15px;
     color:#000000E6;
     margin-top: 5px;
 }
-.bx-menu{
+.menu{
     /* padding-left:1px; */
     margin-top: 1px;
     font-size: 35px;
@@ -24,7 +33,7 @@ margin-top: 15px;
     color:gray;
     border:1px solid rgb(191,187,187);
     border-radius: 5px;
-    padding: 2px 10px;
+    padding: 0px 0px;
     margin-bottom: 10px;
     margin-left: 130px;
     /* margin-top: 3px; */
@@ -35,7 +44,7 @@ margin-top: 15px;
     background-color: #212529;
     min-width:100vw;
     width:100%;
-    margin-top: px;
+    /* margin-top: 100px; */
     display: grid;
    padding-top: 100px;
 }
@@ -59,7 +68,11 @@ margin-top: 15px;
 .container-3{
     display:grid;
     grid-template-columns:auto auto;
-    justify-content: center;   
+    justify-content: center;
+    margin-top:100px; 
+    row-gap: 50px;
+   column-gap: 20px; 
+
 }
 
 .price1{
@@ -68,7 +81,7 @@ margin-top: 15px;
     height: 380px;
     border: 1px solid gray;
     border-radius: 10px;
-    margin-top: 100px;
+    /* margin-top: 100px; */
     /* margin-right: 20px; */
     overflow: hidden;
     border:1px solid rgb(191,187,187);
@@ -102,33 +115,43 @@ margin-top: 15px;
     /* margin-right: 40px; */
     border:1px solid rgb(191,187,187);
 }
-.fancy{
+.span1{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
-    padding-top: 28px;
+    padding-top: 13px;
+    /* align-items: center; */
     text-align: center;
-  font-size: 23px;
+    font-size: 23px;
+    /* padding: 0px 40px; */
+}
+.span{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    text-align: center;
+    font-size: 23px;
+    padding: 13px 40px;
 }
 .rate1{
     text-align: center;
+    /* align-items: center; */
+    /* justify-content: center; */
     margin-bottom: 10px;
-    padding-top: 2px;
+    padding-top: 10px;
     font-size: 16px;
     font-family: "New Romen" , sans-serif;
     /* padding-left:38px; */
 }
-.view{
+.border1{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 60px;
     font-size: 18px;
     border:1px solid ;
     border-radius:5px;
     width:70px;
-    padding: 8px 14px;
+    padding: 6px 14px;
     margin-left: 26px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
 }
 .bxs-star{
-    margin-top: 10px;
+    margin-top: 3px;
     /* margin-right: 5px; */
     display:flex;
     justify-content: center;
@@ -136,14 +159,13 @@ margin-top: 15px;
     letter-spacing: opx; */
     color: gold;
 }
-#icon1{
-    margin-left: 30px;
-    padding-left: 5px;
-    /* letter-spacing: 0px; */
+#icon{
+   display: flex;
+   justify-content: center;
 }
-.add{
+.border2{
     text-align: center;
-    margin-top: 14px;
+    margin-top: 25px;
     font-size: 18px;
     border:1px solid ;
     border-radius:5px;
@@ -153,8 +175,8 @@ margin-top: 15px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
 }
 .del1{
-    margin-top: 8px;
-    padding-left:5px;
+    /* margin-top: 8px; */
+    /* padding-left:5px; */
     color:#6c757d;
 }
 .rate2{
@@ -163,13 +185,13 @@ margin-top: 15px;
     font-size: 16px;
     font-family: "New Romen" , sans-serif;
 }
-.container-3{
+/* .container-3{
     display:grid;
     grid-template-columns:auto auto;
     justify-content: center;   
     gap:20px;
 
-}
+} */
 .price3{
     width: 150px;
     height: 380px;
@@ -180,9 +202,9 @@ margin-top: 15px;
     /* margin-right: 40px; */
     border:1px solid rgb(191,187,187);
 }
-.add2{
+.border3{
     text-align: center;
-    margin-top: 80px;
+    margin-top: 90px;
     font-size: 18px;
     border:1px solid ;
     border-radius:5px;
@@ -191,7 +213,7 @@ margin-top: 15px;
     margin-left: 26px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
 }
-.add3{
+.border4{
     text-align: center;
     margin-top: 50px;
     font-size: 18px;
@@ -208,9 +230,9 @@ margin-top: 15px;
     gap:5px;
    
 }
-.add4{
+.border5{
     text-align: center;
-    margin-top: 53px;
+    margin-top: 90px;
     font-size: 18px;
     border:1px solid ;
     border-radius:5px;
@@ -218,9 +240,32 @@ margin-top: 15px;
     padding: 6px 14px;
     margin-left: 26px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ; 
-}.add5{
+}
+.border6{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 60px;
+    font-size: 18px;
+    border:1px solid ;
+    border-radius:5px;
+    width:70px;
+    padding: 6px 14px;
+    margin-left: 26px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ; 
+}
+.border7{
+    text-align: center;
+    margin-top: 28px;
+    font-size: 18px;
+    border:1px solid ;
+    border-radius:5px;
+    width:70px;
+    padding: 6px 14px;
+    margin-left: 26px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ; 
+}
+.border8{
+    text-align: center;
+    margin-top: 50px;
     font-size: 18px;
     border:1px solid ;
     border-radius:5px;
@@ -241,6 +286,53 @@ margin-top: 15px;
     font-weight: normal;
  
 }
+  .border1:hover{
+    background-color: #212529;
+    color: #ffffff;
+    cursor: pointer;
+  } 
+  .border2:hover{
+    background-color: #212529;
+    color: #ffffff;
+    cursor: pointer;
+  } 
+
+  .border3:hover{
+    background-color: #212529;
+    color: #ffffff;
+    cursor: pointer;
+  } 
+
+  .border4:hover{
+    background-color: #212529;
+    color: #ffffff;
+    cursor: pointer;
+  } 
+
+  .border5:hover{
+    background-color: #212529;
+    color: #ffffff;
+    cursor: pointer;
+  } 
+
+  .border6:hover{
+    background-color: #212529;
+    color: #ffffff;
+    cursor: pointer;
+  } 
+
+  .border7:hover{
+    background-color: #212529;
+    color: #ffffff;
+    cursor: pointer;
+  } 
+
+  .border8:hover{
+    background-color: #212529;
+    color: #ffffff;
+    cursor: pointer;
+  } 
+
 
 @media only screen and (min-width:768px){
     .content-1{
@@ -259,12 +351,286 @@ margin-top: 15px;
     margin-top: 5px;
 }
 
-.container-3{
+ /* .container-3{
     display: grid;
     grid-template-columns: auto auto auto;
+}  */
+.price1{
+    position: relative;
+    width: 210px;
+    height: 345px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-top: 20px;
+    /* margin-right: 20px; */
+    overflow: hidden;
+    border:1px solid rgb(191,187,187);
+    /* margin-right:115px; */
 }
 
+.price3{
+    width: 220px;
+    /* gap: 20px; */
+    height: 345px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    /* margin-top: 100px; */
+    overflow: hidden;
+    /* margin-right: 40px; */
+    border:1px solid rgb(191,187,187);
+}
+.rate1{
+    display:flex;
+    flex-direction:row;
+    gap:5px;
+   
+}
+.rate1{
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    font-size: 16px;
+    font-family: "New Romen" , sans-serif;
+    /* padding-left:38px; */
+}
+.span1{
+    padding-top: 15px;
+}
+.sale1{
+  width: 33px;
+  left: 28%;
+  
+}
+.del1{
+
+        /* margin-top: px; */
+        align-items: center;
+        padding-left:5px;
+        color:#6c757d;
+    }
+    .container-3{
+        display: flex;
+        flex-wrap: wrap;
+       margin-top: 100px;
+    }
+    .bxs-star{
+        margin-top: 0px;
+        display:flex;
+        justify-content: center;
+        color: gold;
+    }
+    .span{
+        text-align: center;
+        font-size: 23px;
+        padding: 13px 0px;
+    }
+    .border1{
+        width: 100px;
+        padding: 4px 10px;
+        margin-top: 70px;
+      margin-left: 44px;
+    }
+    .border2{
+        width: 100px;
+        padding: 4px 10px;
+        margin-left:48px;
+        margin-top: 40px;
+    }
+    .border3{
+        width: 100px;
+        padding: 4px 10px;
+        margin-top: 70px;
+        margin-left: 48px;
+    }
+    .border4{
+        width: 100px;
+        padding: 4px 10px;
+        margin-top: 40px;
+        margin-left: 44px;
+    }
+    .border5{
+        width: 100px;
+        padding: 4px 10px;
+        margin-top: 70px;
+        margin-left: 44px;
+    }
+    .border6{
+        width: 100px;
+        padding: 4px 10px;
+        margin-top: 70px;
+        margin-left: 44px;
+    }
+    .border7{
+        width: 100px;
+        padding: 4px 10px;
+        margin-top: 40px;
+        margin-left: 44px;
+    }
+    .border8{
+        width: 100px;
+        padding: 4px 10px;
+        margin-top: 40px;
+        margin-left: 44px;
+    }
+}
+
+@media only screen and (min-width:1024px){
+
+    .menu{
+        display: none;
+    }
+    .content-1{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 3px;
+        }
+.start{
+    font-size: 20px;
+    color:#000000E6;
+    margin-top: 10px;
+   padding-left: 40px;
+}
+.bx-menu{
+    margin-right:40px;
+    margin-top: 5px;
+}
+
+ /* .container-3{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}  */
+.price1{
+    position: relative;
+    width: 260px;
+    height: 380px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-top: 20px;
+    /* margin-right: 20px; */
+    overflow: hidden;
+    border:1px solid rgb(191,187,187);
+    /* margin-right:115px; */
+}
+
+.price3{
+    width: 220px;
+    /* gap: 20px; */
+    height: 345px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    /* margin-top: 100px; */
+    overflow: hidden;
+    /* margin-right: 40px; */
+    border:1px solid rgb(191,187,187);
+}
+.rate1{
+    display:flex;
+    flex-direction:row;
+    gap:5px;
+   
+}
+.rate1{
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    font-size: 16px;
+    font-family: "New Romen" , sans-serif;
+    /* padding-left:38px; */
+}
+.span1{
+    padding-top: 15px;
+}
+.sale1{
+
+  left: 42%;
+  
+}
+.del1{
+
+        /* margin-top: px; */
+        align-items: center;
+        padding-left:5px;
+        color:#6c757d;
+    }
+   
+    .bxs-star{
+        margin-top: 0px;
+        display:flex;
+        justify-content: center;
+        color: gold;
+    }
+    .span{
+        text-align: center;
+        font-size: 23px;
+        padding: 13px 0px;
+    }
+    .border1{
+        width: 100px;
+        padding: 4px 10px;
+        margin-top: 70px;
+      margin-left: 70px;
+    }
+    .border2{
+        width: 100px;
+        padding: 4px 10px;
+        margin-left:70px;
+        margin-top: 43px;
+    }
+    .border3{
+        width: 100px;
+        padding: 4px 10px;
+        margin-top: 70px;
+        margin-left: 70px;
+    }
+    .border4{
+        width: 100px;
+        padding: 4px 10px;
+        margin-top: 40px;
+        margin-left: 70px;
+    }
+    .border5{
+        width: 100px;
+        padding: 4px 10px;
+        margin-top: 70px;
+        margin-left: 70px;
+    }
+    .border6{
+        width: 100px;
+        padding: 4px 10px;
+        margin-top: 70px;
+        margin-left: 70px;
+    }
+    .border7{
+        width: 100px;
+        padding: 4px 10px;
+        margin-top: 40px;
+        margin-left: 70px;
+    }
+    .border8{
+        width: 100px;
+        padding: 4px 10px;
+        margin-top: 40px;
+        margin-left: 70px;
+    }
 
 
 
+
+}
+@media only screen and (min-width:1440px){
+    .container-3{
+       display: grid; 
+       grid-template-columns: auto auto auto auto;
+       margin-top: 100px;
+       column-gap: 50px;
+       
+    }
+    .sale1{ 
+        left: 42%; 
+      }
+      .menu{
+        display: none;
+      }
 }
